@@ -1,0 +1,52 @@
+/* In this project, I focused more on experimentation of CSS functionality than I did efficency. I think you'll find the results to be entertaining */
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html {
+    /* I'm pretty sure I've seen this font on about 20% of all GoDaddy websites */
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    background-color: rgb(220, 206, 206);
+}
+
+/* Putting this in the HTML element was... explosive */
+div {
+    padding: 40px;
+}
+
+/* A title in caps, as James Fridman deserves. */
+.start h1 {
+    text-transform: uppercase;
+}
+
+/* I couldn't help humming Flo Rida's "Low" at this part. */
+h3 {
+    border-bottom: 10px solid black;
+    padding-bottom: 30px;
+}
+
+/* GOOD GRIEF. Resizing a mixed bag of images in a pleasant manner was more work than I thought! If you all have suggestions on how I could do it better next time, please let me know! */
+img { 
+    max-height: 1000px;
+    max-width: 800px;
+    border: 5px dashed black;
+    margin: 10px;
+}
+
+/* I almost forgot I could save lines with the comma trick. Spicy! */
+.main , .secret {
+    background-color: skyblue;
+}
+
+/* I got possessed with the idea that I wanted a secret surprise at the end. I had much more wilder ideas, but decided to go with something simple. Ish. */
+.end {
+    height: 2000px;
+    font-size: 100pt;
+    position: sticky;
+    top: 100px;
+}
+
+/* Because grass. */
+#grass {
+    border: 15px dotted green;
+}
